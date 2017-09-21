@@ -1,6 +1,6 @@
 {
   "name": "gulp-rev-all",
-  "version": "0.9.7",
+  "version": "0.9.8",
   "description": "Static asset revisioning by appending content hash to filenames: unicorn.css => unicorn.098f6bcd.css, also re-writes references in each file to new reved name.",
   "main": "index.js",
   "dependencies": {
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/smysnk/gulp-rev-all.git"
+    "url": "git://github.com/cocos-creator/gulp-rev-all.git"
   },
   "keywords": [
     "gulp-rev",
