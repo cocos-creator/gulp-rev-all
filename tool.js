@@ -26,7 +26,7 @@ module.exports = (function() {
    */
   var join_path = function (directory, filename) {
 
-    return Path.join(directory, filename).replace(/^[a-z]:\\/i, '/').replace(/\\/g, '/');
+    return Path.join(directory, filename).replace(/\\/g, '/');
     
   };
 
